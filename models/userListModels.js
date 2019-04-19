@@ -9,7 +9,7 @@ var UserSchema = new Schema({
     required: "Please Enter"
   },
   drinks: {
-    type: [Schema.Types.Mixed]
+    type: [[String]]
   },
   Created_date: {
     type: Date,
