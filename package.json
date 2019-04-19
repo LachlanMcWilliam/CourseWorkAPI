@@ -1,0 +1,27 @@
+{
+  "name": "courseworkapi",
+  "version": "1.0.0",
+  "description": "An API for the cocktailFinder cw",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LachlanMcWilliam/CourseWorkAPI.git"
+  },
+  "author": "Lachlan McWilliam",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/LachlanMcWilliam/CourseWorkAPI/issues"
+  },
+  "homepage": "https://github.com/LachlanMcWilliam/CourseWorkAPI#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.2"
+  }
+}
